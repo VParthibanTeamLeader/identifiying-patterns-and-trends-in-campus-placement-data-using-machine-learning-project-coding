@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Campus Placement</title>
+</head>
+<body bgcolor="pink">
+<h1>IDENTIFYING TRENDS AND PATTERNS IN CAMPUS PLACEMENT DATASET USING MACHINE LEARNING</h1>
+<form action = "{{ url_for('predict')}}" method = "post">
+    AGE<input type="number" name="age" >
+    GENDER<input type="number"name="gender" >
+    STREAMS<input type="number"name="stream" >
+    INTERNS<input type="number" name="interns" >
+    CGPA<input type="number" name="cgpa" >
+    Backlog<input type="number" name="backlog" >
+    <button type="submit" value="submit">submit</button>
+</form>
+<h3>{{ y }}</h3>
+</body>
+</html>
