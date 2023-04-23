@@ -1,1 +1,1 @@
-# identifiying-patterns-and-trends-in-campus-placement-data-using-machine-learning-project-coding
+# Identifiying-Patterns-and-Trends-in-Campus-Placement-Data-Using-Machine-Learning-Project-Coding
